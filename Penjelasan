@@ -1,0 +1,13 @@
+#Penjelasan
+Folder src berisikan file packages dari program aplikasi yang berfungsi untuk menjalankan program;
+Pada packages koneksi, terdapat file yang bernama db.sql yang berfungsi untuk membuat table pada database;
+Folder Laporanjava berisi file PHP yang berfungsi sebagai struk laporan dari program;
+
+#Tutorial
+->Pindahkan folder src ke dalam folder projek aplikasi;
+->Pindahkan folder Laporanjava ke dalam folder xampp/htdocs;
+->Buka aplikasi xampp lalu run Apache dan Mysql;
+->Buat database baru pada localhost dengan nama db;
+->Koneksikan file db.sql ke database bernama db dengan cara Run sql pada netbeans;
+->Tambahkan library Absolute Layout dan connector-mysql.jar pada Folder libraries di program aplikasi; 
+->Run class login.java pada packages laundry;
